@@ -1,6 +1,6 @@
 debian:
     build: .
     volumes:
-        - $(pwd)/Packages:/opt/packages
+        - $PACKAGES:/opt/packages
     env_file:
         - ./secrets.env
