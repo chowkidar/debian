@@ -1,4 +1,4 @@
-nginx:
+debian:
     build: .
     volumes:
         - $(pwd)/Packages:/opt/packages
