@@ -1,0 +1,6 @@
+nginx:
+    build: .
+    volumes:
+        - $(pwd)/Packages:/opt/packages
+    env_file:
+        - ./secrets.env
